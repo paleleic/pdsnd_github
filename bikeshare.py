@@ -23,7 +23,7 @@ def get_filters():
         city = input('We only have data for 3 cities! Please choose between- Chicago, New York City, or Washington: ').lower()
     else:
     # TO DO: get user input for month (all, january, february, ... , june)
-        month = input('Please select a month from January through June, or choose all: ').lower()
+        month = input('Please select a month, January, February, March, April, May, June, or choose all: ').lower()
         while (month not in ['january', 'february', 'march', 'april', 'may', 'june', 'all']):
             month = input('Please choose between- January, February, March, April, May, June or all: ').lower()
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)

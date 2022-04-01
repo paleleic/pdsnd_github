@@ -7,8 +7,7 @@ March 31, 2022
 Bikeshare Git Project
 
 ### Description
-Bikeshare data from three cities to get statistics in an interactive format
-using python code
+Bikeshare data from three cities to get statistics in an interactive format using python code
 
 ### Files used
 bikeshare.py

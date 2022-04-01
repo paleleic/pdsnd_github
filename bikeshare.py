@@ -28,7 +28,7 @@ def get_filters():
             month = input('Please choose between- January, February, March, April, May, June or all: ').lower()
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
         else:
-            day = input('Please select a day of the week or choose all: ').lower()
+            day = input('Please select a day of the week, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or choose all: ').lower()
             while (day not in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday','all']):
                 day = input('Please choose between- Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday or all: ').lower()
             else:
